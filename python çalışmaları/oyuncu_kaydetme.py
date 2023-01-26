@@ -1,0 +1,10 @@
+print("**************Oyuncu Kaydetme Programına Hoşgeldiniz**************")
+ad=input("Adını Giriniz :")
+soyad=input("Soyadını Giriniz :")
+takım=input("Oynadığı Takımı Giriniz :")
+bilgiler=[ad,soyad,takım]
+print()
+print("Oyuncu Bilgileri Kaydediliyor...")
+print("**********************************")
+print("Oyuncu Adı : {}\nOyuncunun Soyadı : {}\nOynadığı Takım : {}".format (bilgiler[0],bilgiler[1],bilgiler[2]))
+print("Bilgiler Kaydedildi...")
